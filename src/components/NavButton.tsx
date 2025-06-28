@@ -10,7 +10,7 @@ type Props = {
 
 export function NavButton({ icon: Icon, href }: Props) {
   return (
-    <Button className="cursor-pointer">
+    <Button className="cursor-pointer rounded-full">
       {href ? (
         <Link href={href} >
           <Icon />
